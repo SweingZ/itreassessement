@@ -1,24 +1,162 @@
+@import  url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: rgb(50, 50, 50);
+    background-color: #E9DAC1;
     margin: 0;
     padding: 0;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
+/* Navigation Bar */
+
+nav{
+    position:fixed;
+    top:0;
+}
+
+.logo{
+    width:50px;
+}
+
+header{
+    background-color:#293462 ;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header h2{
+    color:white;
+    font-family:"Montserrat", sans-serif;
+    margin-left:10px;
+    margin-right: 900px;
+    margin-top:10px;
+    display:inline-block;
+}
+
+header button {
+    background: #1abc9c;
+    background-image: -webkit-linear-gradient(top, #1abc9c, #2980b9);
+    background-image: -moz-linear-gradient(top, #1abc9c, #2980b9);
+    background-image: -ms-linear-gradient(top, #1abc9c, #2980b9);
+    background-image: -o-linear-gradient(top, #1abc9c, #2980b9);
+    background-image: linear-gradient(to bottom, #1abc9c, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+header button:hover {
+    background: #1abc9c;
+    background-image: -webkit-linear-gradient(top, #1abc9c, #3498db);
+    background-image: -moz-linear-gradient(top, #1abc9c, #3498db);
+    background-image: -ms-linear-gradient(top, #1abc9c, #3498db);
+    background-image: -o-linear-gradient(top, #1abc9c, #3498db);
+    background-image: linear-gradient(to bottom, #1abc9c, #3498db);
+    text-decoration: none;
+  }
+
+nav{
+	position: relative;
+	top: 0%;
+    left:58%;
+    margin-top:-95px;
+	width: 590px;
+	height: 50px;
+	/* background: #34495e; */
+	border-radius: 8px;
+	font-size: 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    top:1%
+}
+nav a{
+    font-family:"Montserrat", sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+nav .animation{
+	position: absolute;
+	height: 100%;
+	/* height: 5px; */
+	top: 0;
+	/* bottom: 0; */
+	z-index: 0;
+	background: #1abc9c;
+	border-radius: 8px;
+	transition: all .5s ease 0s;
+}
+nav a:nth-child(1){
+	width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 100px;
+	left: 0;
+}
+nav a:nth-child(2){
+	width: 110px;
+}
+nav a:nth-child(2):hover~.animation{
+	width: 110px;
+	left: 100px;
+}
+nav a:nth-child(3){
+	width: 100px;
+}
+nav a:nth-child(3):hover~.animation{
+	width: 100px;
+	left: 210px;
+}
+nav a:nth-child(4){
+	width: 160px;
+}
+nav a:nth-child(4):hover~.animation{
+	width: 160px;
+	left: 310px;
+}
+nav a:nth-child(5){
+	width: 120px;
+}
+nav a:nth-child(5):hover~.animation{
+	width: 120px;
+	left: 470px;
+}
+
+/* Slideshow */
 .slider{
+    position:relative;
+    left:20%;
     width:800px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    top: 10%;
 }
 
 .slides{
+    position:relative;
     width: 500%;
     height: 500px;
     display: flex;
+    border:solid black 1px;
 }
 
 .slides input{
@@ -105,3 +243,18 @@ body {
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background: cyan;
 } */
+
+/* Subtitle */
+.subtitle h2{
+    color:#D61C4E;
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+}
+
+.subtitle{
+    position:relative;
+    top:80px;
+    right:40px;
+}
