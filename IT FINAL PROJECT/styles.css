@@ -402,6 +402,7 @@ nav a:nth-child(5):hover~.animation{
     margin-left:30px;
     position: relative;
     width: 400px;
+    display:inline-block;
 }
 
 .image2{
@@ -409,12 +410,13 @@ nav a:nth-child(5):hover~.animation{
     margin-left:30px;
     position: relative;
     width: 400px;
-    left:500px;
-    bottom:670px;
+    left:80px;
+    bottom:0px;
     border-top:solid #1b1b27 20px;
     border-bottom:solid #1b1b27 20px;
     border-left:solid #1b1b27 14px;
     border-right:solid #1b1b27 12px;
+    display:inline-block;
 }
 
 .image3{
@@ -422,12 +424,13 @@ nav a:nth-child(5):hover~.animation{
     margin-left:30px;
     position: relative;
     width: 400px;
-    bottom:1340px;
-    left:67%;
+    bottom:0px;
+    left:130px;
     border-top:solid #1b1b27 20px;
     border-bottom:solid #1b1b27 30px;
     border-left:solid #1b1b27 14px;
     border-right:solid #1b1b27 12px;
+    display:inline-block;
 }
 
 .image__img{
