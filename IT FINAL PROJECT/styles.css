@@ -411,6 +411,10 @@ nav a:nth-child(5):hover~.animation{
     width: 400px;
     left:500px;
     bottom:670px;
+    border-top:solid #1b1b27 20px;
+    border-bottom:solid #1b1b27 20px;
+    border-left:solid #1b1b27 14px;
+    border-right:solid #1b1b27 12px;
 }
 
 .image3{
@@ -420,6 +424,10 @@ nav a:nth-child(5):hover~.animation{
     width: 400px;
     bottom:1340px;
     left:67%;
+    border-top:solid #1b1b27 20px;
+    border-bottom:solid #1b1b27 30px;
+    border-left:solid #1b1b27 14px;
+    border-right:solid #1b1b27 12px;
 }
 
 .image__img{
