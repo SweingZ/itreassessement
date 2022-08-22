@@ -137,7 +137,7 @@ nav a:nth-child(5):hover~.animation{
 /* PARALLAX */
 .parallax{
     margin-top:40px;
-    background-image: url(images1/brbad.PNG);
+    background-image: url(images2/laugh.jpg);
     min-height:500px;
     background-attachment:fixed;
     background-position:center;
@@ -176,7 +176,7 @@ nav a:nth-child(5):hover~.animation{
 /* DETAILS */
 .detail{
     position:relative;
-    background-image: url(images1/heisenberg.PNG);
+    background-image: url(images2/smokeCROP.jpg);
     margin-top:0px;
     min-height:500px;
     background-repeat:no-repeat;
@@ -218,7 +218,7 @@ nav a:nth-child(5):hover~.animation{
 
 /* CAST */
 .cast{
-    background-image: url(images1/heisenberg.PNG);
+    background-image: url(images2/raincrop.jpg);
 }
 .cast h5{
     color:#D61C4E;
@@ -232,7 +232,7 @@ nav a:nth-child(5):hover~.animation{
 
 .image{
     margin-top:30px;
-    margin-left:70px;
+    margin-left:30px;
     position: relative;
     display:inline-block;
     border: solid black 5px;
@@ -242,7 +242,7 @@ nav a:nth-child(5):hover~.animation{
     margin-top:30px;
     margin-left:30px;
     position: relative;
-    left:170px;
+    left:30px;
     display:inline-block;
     border: solid black 5px;
 }
@@ -251,7 +251,7 @@ nav a:nth-child(5):hover~.animation{
     margin-top:30px;
     margin-left:30px;
     position: relative;
-    left:340px;
+    left:60px;
     display:inline-block;
     border: solid black 5px;
 }
@@ -260,17 +260,16 @@ nav a:nth-child(5):hover~.animation{
     margin-top:30px;
     margin-left:30px;
     position: relative;
-    left:0px;
-    top:450px;
+    left:80px;
     display:inline-block;
     border: solid black 5px;
 }
 
-.image5{
+/* .image5{
     margin-top:30px;
-    margin-left:70px;
+    margin-left:30px;
     position: relative;
-    left:0px;
+    left:200px;
     display:inline-block;
     border: solid black 5px;
 }
@@ -279,10 +278,10 @@ nav a:nth-child(5):hover~.animation{
     margin-top:30px;
     margin-left:30px;
     position: relative;
-    left:170px;
+    left:230px;
     display:inline-block;
     border: solid black 5px;
-}
+} */
 
 
 .image__img{
@@ -317,17 +316,16 @@ nav a:nth-child(5):hover~.animation{
 }
 
 .image-resize{
-    height:400px;
+    height:300px;
     width:300px;
     object-fit: cover;
     object-position: center center;
-    
 }
 
 /* WHY I LOVE IT */
 .parallax2{
     margin-top:0px;
-    background-image: url(images1/call.PNG);
+    background-image: url(images2/roses.jpg);
     min-height:500px;
     background-attachment:fixed;
     background-position:center;
@@ -351,7 +349,7 @@ nav a:nth-child(5):hover~.animation{
 /* VERDICT */
 .verdict{
     position:relative;
-    background-image: url(images1/money.PNG);
+    background-image: url(images2/crew.jpg);
     margin-top:0px;
     min-height:500px;
     background-repeat:no-repeat;
